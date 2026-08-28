@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LapataSMP - Minecraft Lifesteal Server</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">⚔️</span>
+                LapataSMP
+            </a>
+            <nav>
+                <a href="index.html">🏠 Home</a>
+                <a href="rules.html">📜 Rules</a>
+                <a href="discord.html">💬 Discord</a>
+                <a href="about.html">ℹ️ About</a>
+                <a href="staff.html">👑 Staff</a>
+                <a href="hosting.html">🔧 Hosting</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div style="display: flex; align-items: center; justify-content: center; gap: 20px;">
+                <span class="sword-decoration">⚔️</span>
+                <div class="hero-title">LAPATASMP</div>
+                <span class="sword-decoration">⚔️</span>
+            </div>
+            <div class="hero-subtitle">Minecraft Lifesteal Server - Grab Your Sword And Go Wild!</div>
+
+            <!-- Stats -->
+            <div class="stats-container">
+                <div class="stat-box">
+                    <div class="stat-number">1000+</div>
+                    <div class="stat-label">Players Online</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">3000+</div>
+                    <div class="stat-label">Discord Members</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">99.9%</div>
+                    <div class="stat-label">Uptime</div>
+                </div>
+            </div>
+
+            <!-- CTA Buttons -->
+            <div class="cta-buttons">
+                <a href="discord.html" class="btn btn-secondary">🎮 Join Discord</a>
+                <a href="about.html" class="btn btn-primary">📖 Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Server Info -->
+    <section class="server-info-section">
+        <h2 class="section-title">⚔️ Connect to the Server</h2>
+        <div class="server-details">
+            <div class="detail-item">
+                <div class="detail-label">🖥️ Java Edition IP</div>
+                <div class="detail-value" onclick="copyToClipboard('LapataSMP.fun')">LapataSMP.fun</div>
+            </div>
+            <div class="detail-item">
+                <div class="detail-label">📱 Bedrock Edition Port</div>
+                <div class="detail-value">25565</div>
+            </div>
+            <div class="detail-item">
+                <div class="detail-label">🌐 Version</div>
+                <div class="detail-value">1.21.11+</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="rules.html">Rules</a>
+                <a href="discord.html">Discord</a>
+                <a href="about.html">About</a>
+                <a href="staff.html">Staff</a>
+                <a href="hosting.html">Hosting</a>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 LapataSMP. All rights reserved. | Not affiliated with Minecraft or Mojang Studios</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function copyToClipboard(text) {
+            navigator.clipboard.writeText(text).then(() => {
+                alert('✅ Copied to clipboard: ' + text);
+            }).catch(err => {
+                console.error('Failed to copy:', err);
+            });
+        }
+    </script>
+</body>
+</html>
