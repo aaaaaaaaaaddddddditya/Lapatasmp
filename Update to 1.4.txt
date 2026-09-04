@@ -1,0 +1,2 @@
+1, Updated the install command of cloudflare/sdk (check it in PanelEdit.txt)
+2, Don't forgot to paste vendor folder to your panel after the composer commands
